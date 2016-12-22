@@ -1,0 +1,106 @@
+#user-message, #computer-message {
+  display: none;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  display: block;
+	padding: 20px 75px;
+	color: white;
+	font-size: 45px;
+  font-family: Arial
+}
+
+body {
+	background: url(background_image.jpg)no-repeat center top;
+  background-size: cover;
+}
+
+.buttons {
+  text-align: center;
+}
+
+#rock {
+  margin: 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: darkgrey;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+#paper {
+  margin: 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: darkgrey;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+#scissors {
+  margin: 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: darkgrey;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+
+
+#user-message {
+  margin: auto;
+  float: left;
+  text-align: left;
+  padding: 20px 75px;
+  color: white;
+  font-size: 45px;
+  font-family: Arial
+}
+
+/*#user-choice {
+  margin: auto;
+  text-align: left;
+  padding: 20px 75px;
+  color: white;
+  font-size: 45px;
+  font-family: Arial
+}*/
+
+#computer-message {
+  float: right;
+  margin: auto;
+  text-align: right;
+  padding: 20px 75px;
+  color: white;
+  font-size: 45px;
+  font-family: Arial
+}
+
+/*#computer-choice {
+  clear:right;
+  margin: auto;
+  text-align: right;
+  display: block;
+  padding: 20px 75px;
+  color: white;
+  font-size: 45px;
+  font-family: Arial
+}*/
+
+#result {
+  margin: auto;
+  text-align: center;
+  padding: 200px;
+  color: white;
+  font-size: 45px;
+  font-family: Arial
+}
